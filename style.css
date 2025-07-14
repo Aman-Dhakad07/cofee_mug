@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#wrapper{
+
+    border-radius: 30px;
+    height:100vh ;
+    overflow-x:hidden ;
+    overflow-y:auto ;
+
+}
+
+.container {
+     width: 100%;
+  object-fit: cover;border-radius: 30px;
+
+    background-color: rgb(217, 237, 252);
+      width: 500px;
+  border: 2px solid whitesmoke;
+  display: flex;
+  writing-mode: horizontal-tb;
+}
+
+.item1{
+      
+    
+    margin-right: 20px;
+    border-radius: 30px;
+    object-fit: cover;
+
+}
+
+.item2{
+        
+        
+
+    padding:3px;
+
+}
+p{
+
+    color: rgb(60, 61, 61);
+}
+.realprice{
+
+    color: rgb(60, 61, 61);
+}
+
+.price{
+
+    color:green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cart{
+   text-align: center;
+    background-color: green;
+    color: whitesmoke;
+    margin-right: 10px;
+    border-radius: 30px;
+}
